@@ -1,0 +1,11 @@
+name: flutter_clean_infrastructure
+description: A plugin that provides core elements for implementing the infrastructure layer of a Clean Architecture
+version: 1.0.0
+publish_to: none
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+
+dev_dependencies:
+  equatable: ^2.0.2
