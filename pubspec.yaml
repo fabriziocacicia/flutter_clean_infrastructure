@@ -1,16 +1,16 @@
-#TODO: set the package name
-name: my_dart_package
-#TODO: set the package description
-description: A starting point for Dart libraries or applications.
-version: 0.0.1
+name: flutter_clean_infrastructure
+description: A plugin that provides core elements for implementing the infrastructure layer of a Clean Architecture
+version: 1.0.0
 publish_to: none
 
 environment:
-  sdk: '>=2.18.0 <3.0.0'
+  sdk: ">=2.12.0 <3.0.0"
 
 # dependencies:
 
 dev_dependencies:
+  equatable: ^2.0.2
+  
   # Linting and Code analysis
   dart_lint_rules:
     git:
